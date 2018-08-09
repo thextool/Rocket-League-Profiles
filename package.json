@@ -1,0 +1,27 @@
+{
+  "name": "rocket-league-profiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -e css,ejs,js,json --watch app --ignore feedback.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thextool/Rocket-League-Profiles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thextool/Rocket-League-Profiles/issues"
+  },
+  "homepage": "https://github.com/thextool/Rocket-League-Profiles#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "body-parser": "^1.15.2",
+    "ejs": "^2.4.2",
+    "reload": "^1.0.0",
+    "socket.io": "^1.4.8"
+  }
+}
